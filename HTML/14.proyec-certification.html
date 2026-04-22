@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Survey Form</title>
+  </head>
+
+  <body style="background-color: white">
+    <!--Title-->
+
+    <h1 id="title">Ministerio de Salud</h1>
+
+    <!--Description-->
+
+    <p id="description">
+      El objetivo de esta encuesta es conocer la realidad de los estudiantes:
+      cómo están llevando la carrera, cómo organizan su tiempo entre el estudio
+      y el trabajo, y qué les parece honestamente el nivel de las materias.
+    </p>
+
+    <form id="survey-form">
+      <!-- Initial Questions-->
+
+      <!--Name-->
+
+      <label id="name-label" for="name"> Name: </label>
+
+      <input id="name" type="text" placeholder="Mario Hart" required /> <br />
+
+      <!--Email-->
+
+      <label id="email-label" for="name"> Email: </label>
+
+      <input id="email" type="email" required placeholder="example@email.com" />
+      <br />
+
+      <!--Age-->
+
+      <label id="number-label" for="number"> Age: </label>
+
+      <input
+        id="number"
+        type="number"
+        required
+        min="3"
+        max="40"
+        placeholder="30"
+      /><br />
+
+      <!-- Elementos Despegables-->
+
+      <label>¿En qué año comenzó a estudiar? </label>
+
+      <select id="dropdown">
+        <option value="2008">2008</option>
+
+        <option selected value="2007">2007</option>
+
+        <option value="2006">2006</option>
+
+        <option value="2005">2005</option>
+
+        <option value="2004">2004</option>
+
+        <option value="2003">2003</option>
+
+        <option value="2002">2002</option>
+
+        <option value="2001">2001</option>
+      </select>
+      <br />
+
+      <!-- Elementos Radio-->
+
+      <label id="career">¿Cuál es su carrera?</label> <br />
+
+      <input type="radio" id="medicina" name="line-career" value="Medicina" />
+
+      <label for="medicina">Medicina</label>
+
+      <input type="radio" id="derecho" name="line-career" value="Derecho" />
+
+      <label for="derecho">Derecho</label>
+
+      <input
+        type="radio"
+        id="ing-sistemas"
+        name="line-career"
+        value="Ing.Sistemas"
+      />
+
+      <label for="ing-sistemas">Ing.Sistemas</label>
+
+      <input
+        type="radio"
+        id="ing-industrial"
+        name="line-career"
+        value="Ing.Industrial"
+      />
+
+      <label for="ing-industrial">Ing.Industrial</label>
+
+      <input
+        type="radio"
+        id="arquitectura"
+        name="line-career"
+        value="Arquitectura"
+      />
+
+      <label for="arquitectura">Arquitectura</label>
+
+      <input
+        type="radio"
+        id="ciencias-de-la-comunicación"
+        name="line-career"
+        value="Ciencias de la Comunicación"
+      />
+
+      <label for="ciencias-de-la-comunicación"
+        >Ciencias de la Comunicación</label
+      >
+
+      <input
+        type="radio"
+        id="psicologia"
+        name="line-career"
+        value="Psicologia"
+      />
+
+      <label for="psicologia">Psicologia</label>
+
+      <br />
+
+      <label id="activity"
+        >¿En qué otras actividades de la universidad participas? (Selecciona
+        todas las que apliquen)</label
+      ><br />
+
+      <input
+        type="checkbox"
+        id="deportivo"
+        value="Equipos deportivos"
+        name="activity"
+      />
+
+      <label for="deportivo">Equipos deportivos</label><br />
+
+      <input
+        type="checkbox"
+        id="talleres"
+        value="Talleres culturales o artísticos"
+        name="activity"
+      />
+
+      <label for="talleres">Talleres culturales o artísticos</label><br />
+
+      <input
+        type="checkbox"
+        id="social"
+        value="Voluntariados o proyectos de extensión social"
+        name="activity"
+      />
+
+      <label for="social">Voluntariados o proyectos de extensión social</label
+      ><br />
+
+      <input
+        type="checkbox"
+        id="centros"
+        value="Centro de estudiantes o política universitaria"
+        name="activity"
+      />
+
+      <label for="centros">Centro de estudiantes o política universitaria</label
+      ><br />
+
+      <input
+        type="checkbox"
+        id="seminarios"
+        value="Congresos, charlas o seminarios extracurriculares"
+        name="activity"
+      />
+
+      <label for="seminarios"
+        >Congresos, charlas o seminarios extracurriculares</label
+      ><br />
+
+      <label for="comment">Comentario</label><br />
+
+      <textarea id="comment"> </textarea><br />
+
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
