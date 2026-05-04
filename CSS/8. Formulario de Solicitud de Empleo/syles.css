@@ -1,0 +1,52 @@
+body {
+  background-color: #f2d0a7;
+
+  color: #402516;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #3498db;
+
+  outline: none;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+  border-color: green;
+}
+
+button {
+  background-color: #bf785e;
+
+  color: whitesmoke;
+}
+
+button:hover {
+  background-color: #733b2f;
+}
+
+.radio-group input[type="radio"]:checked {
+  border-color: #402516;
+
+  background-color: #402516;
+
+  box-shadow: 0 1px 16px #402516;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  color: green;
+}
+
+input:first-of-type {
+  display: block;
+
+  margin: 12px 0;
+}

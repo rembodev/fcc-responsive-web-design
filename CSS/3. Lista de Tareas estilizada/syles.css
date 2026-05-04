@@ -1,0 +1,18 @@
+.sub-item-link {
+  text-decoration: none;
+}
+.sub-item-link:link {
+  color: blue;
+}
+.sub-item-link:hover {
+  color: red;
+}
+.sub-item-link:active {
+  color: green;
+}
+.sub-item-link:focus {
+  outline: 2px solid red;
+}
+.sub-item-link:visited {
+  color: purple;
+}

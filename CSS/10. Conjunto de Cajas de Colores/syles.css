@@ -1,0 +1,55 @@
+body {
+  background-color: #f4f4f4;
+
+  width: 100%;
+
+  margin: auto;
+
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.color-grid {
+  width: 700px;
+
+  display: flex;
+
+  justify-content: center;
+
+  margin: auto;
+}
+
+.color-box {
+  width: 100px;
+
+  height: 100px;
+
+  margin: auto;
+
+  border-radius: 10px;
+
+  border: 1px solid black;
+}
+
+.color1 {
+  background-color: #13f333;
+}
+
+.color2 {
+  background-color: rgb(255, 54, 65);
+}
+
+.color3 {
+  background-color: lightgray;
+}
+
+.color4 {
+  background-color: hsl(255, 39%, 43%);
+}
+
+.color5 {
+  background: linear-gradient(to right, red, blue);
+} 
